@@ -120,10 +120,5 @@ Acesse `http://localhost:3000`. O gráfico `Gols - Time Azul` usa o atributo `gb
 - **MQTT desconectando:** verifique se o IP do broker corresponde ao Mosquitto no docker (use `docker inspect fiware-mosquitto`).
 - **Dashboard sem dados:** confirme se a rota `/api/sth` existe e se o serviço de histórico está ativo.
 
-## Roadmap
-- Adicionar serviço STH-Comet/QuantumLeap ao `docker-compose`.
-- Criar rota Next.js `/api/sth` parametrizável via variáveis de ambiente.
-- Integrar o placar físico ao futuro portal de campeonatos (cadastro de times, tabelas, estatísticas).
-
----
-Projeto desenvolvido como evolução do placar automático apresentado no repositório [Sprint-3 Edge Computing](https://github.com/Thomas-Sievers/Sprint-3-Edge-Computing). Contribuições e sugestões são bem-vindas!
+## Vídeo do projeto não funcionando
+https://youtu.be/_WMf5OTSvI8
